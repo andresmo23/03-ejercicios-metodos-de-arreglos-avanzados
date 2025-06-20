@@ -75,16 +75,6 @@ export const itemsEjercicio4 = [
   "monitores",
 ];
 
-// Datos para Ejercicio 8: Pedidos de ejemplo
-export const pedidoEjercicio8 = [
-  { id: 1, cantidad: 1 }, // Teclado Mecánico RGB (stock 15)
-  { id: 2, cantidad: 5 }, // Mouse Inalámbrico Gaming (stock 5)
-  { id: 4, cantidad: 1 }, // Audífonos Bluetooth (stock 0 - debería fallar)
-  { id: 10, cantidad: 2 }, // Computadora de Escritorio Gamer (stock 2)
-];
-// Este pedido debería dar TRUE si usas `productosTiendaCompleto` y el stock permite
-// Prueba con: [{ id: 1, cantidad: 20 }, { id: 2, cantidad: 1 }] para un FALSE (excede teclado)
-
 // Datos para Ejercicio 9: Encontrar Elementos Duplicados en Array de Objetos
 export const productosEjercicio9 = [
   { id: "prod-A", nombre: "Producto Alpha", version: "v1" },
